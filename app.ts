@@ -16,5 +16,8 @@
 
     console.log(second);
 
+    const MESSAGE = "This is a constant";
+    console.log(MESSAGE);
+
 })();
 

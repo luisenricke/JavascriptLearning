@@ -10,4 +10,6 @@
         var second_1 = "Buzz";
     }
     console.log(second);
+    var MESSAGE = "This is a constant";
+    console.log(MESSAGE);
 })();
