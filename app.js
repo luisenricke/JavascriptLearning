@@ -1,14 +1,7 @@
-
-
-function saludar( nombre ) {
-    console.table( 'Hola ' + nombre ); // Hola Logan
+function saludar(nombre) {
+    console.table('Hola ' + nombre); // Hola Logan
 }
-
-
-const wolverine = {
+var wolverine = {
     nombre: 'Logan'
 };
-
-
-saludar(  );
-
+saludar(wolverine.nombre);
