@@ -1,12 +1,20 @@
 (function(){
-    function saludar(nombre :string) {
-        console.table( 'Hola ' + nombre ); // Hola Logan
+
+    let first = "Fizz";
+
+    if( true ){
+        first = "Buzz";
     }
 
-    const wolverine = {
-        nombre: 'Logan'
-    };
+    console.log(first);
 
-    saludar( wolverine.nombre );
+    let second = "Fizz";
+
+    if( true ){
+        let second = "Buzz";
+    }
+
+    console.log(second);
+
 })();
 
