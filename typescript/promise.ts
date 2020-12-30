@@ -14,4 +14,19 @@
         .catch(err => console.warn(err));
 
     console.log('End');
+
+
+    const sum = (a: number, b: number): number => a + b;
+    const sayHi = (): string => 'Hello Luis';
+
+    const getSalary = (): Promise<number> => {
+        return new Promise((resolve, reject) => {
+            resolve(100);
+        });
+    };
+
+    getSalary()
+        .then( a => console.log( a ))
+        .catch(error => console.warn( error));
+
 })();
